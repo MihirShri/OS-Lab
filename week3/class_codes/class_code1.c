@@ -11,8 +11,7 @@ int main ()
 	else
 	{
 		wait (NULL); // parent waits for the child to complete execution.
-		printf("Parent Process gets the control \n");
-		printf ("Parent Has waited for Child to Complete\n");
+		printf("Parent Process waits for the child to complete and then gets the control \n");
 	}
 	return 0;
 }
